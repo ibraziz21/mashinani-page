@@ -1,4 +1,13 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
+import Aziz from '@/public/assets/Aziz.png'
+import Omar from '@/public/assets/omar.png'
+import Alex from '@/public/assets/alex.png'
+import Kamae from '@/public/assets/kamae.png'
+import Mark from '@/public/assets/Mark-Moss.png'
+import Victoria from '@/public/assets/Victoria-Mukami.png'
+import Cyndie from '@/public/assets/cyndie.png'
+import Faizah from '@/public/assets/faizah.png'
+
 
 export const primaryFeatures = [
   {
@@ -144,64 +153,56 @@ export const people = [
   {
     name: 'Mohammed Aziz',
     role: 'CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl: Aziz,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Ibrahim Omar',
     role: 'CTO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    twitterUrl: '#',
+    imageUrl: Omar,
+	twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Kamae',
     role: 'COO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl:Kamae,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Mark Moss',
     role: 'Content Director',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl:Mark,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Victoria Mukami',
     role: 'Marketing Head',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl:Victoria,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Alex Muia',
     role: 'Lead NFT Development',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl:Alex,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Faizah',
     role: 'Communication Head',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl:Faizah,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Cyndie Kamau',
     role: 'Backend Developer',
-    imageUrl:
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    imageUrl:Cyndie,
     twitterUrl: '#',
     linkedinUrl: '#',
   },

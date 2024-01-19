@@ -2,6 +2,8 @@
 
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 
@@ -24,14 +26,16 @@ const Header = () => {
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
-          <a href='#' className='-m-1.5 p-1.5'>
-            <span className='sr-only'>Your Company</span>
-            <img
-              className='h-8 w-auto'
-              src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-              alt=''
+          <Link href='/' className='-m-1.5 p-1.5'>
+            <span className='sr-only'>Crypto Koala</span>
+            <Image
+              className='h-16 w-auto'
+              src='/assets/logo.png'
+              alt='Logo'
+              width={100}
+              height={100}
             />
-          </a>
+          </Link>
         </div>
         <div className='flex lg:hidden'>
           <button
@@ -55,9 +59,12 @@ const Header = () => {
           ))}
         </div>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-          <a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
+          <button
+            type='submit'
+            className='flex-none rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+          >
             Join Community
-          </a>
+          </button>
         </div>
       </nav>
       <Dialog
@@ -69,14 +76,16 @@ const Header = () => {
         <div className='fixed inset-0 z-50' />
         <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
-            <a href='#' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Your Company</span>
-              <img
-                className='h-8 w-auto'
-                src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-                alt=''
+            <Link href='/' className='-m-1.5 p-1.5'>
+              <span className='sr-only'>Crypto Koala</span>
+              <Image
+                className='h-16 w-auto'
+                src='/assets/logo.png'
+                alt='Logo'
+                width={100}
+                height={100}
               />
-            </a>
+            </Link>
             <button
               type='button'
               className='-m-2.5 rounded-md p-2.5 text-gray-700'
