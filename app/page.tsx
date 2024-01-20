@@ -1,5 +1,3 @@
-
-
 import Image from 'next/image';
 import Header from './header';
 import { footerNavigation, people, secondaryFeatures } from '@/data/data';
@@ -48,13 +46,13 @@ export default async function Home() {
                   </form>
                 </div>
               </div>
-              <div className='mt-16 sm:mt-24 lg:mt-0'>
+              <div className="">
                 <Image
-                  className=''
-                  src='/assets/heroImage.png'
+                  className='w-full h-full'
+                  src='/assets/hero-image.png'
                   alt='Hero Image'
-                  width={500}
-                  height={2000}
+                  width={2432}
+                  height={1442}
                 />
               </div>
             </div>
@@ -62,10 +60,10 @@ export default async function Home() {
         </div>
 
         {/* Logo cloud */}
-        <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+        <div className='mx-auto sm:mt-28 max-w-7xl px-6 lg:px-8'>
           <p className='py-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center'>
-            We Featured on
-            <br /> popular Partners like
+            We featured on
+            <br /> popular partners like
           </p>
           <div className='mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-8'>
             <Image
@@ -128,7 +126,7 @@ export default async function Home() {
         </div>
 
         {/* Feature section */}
-        <div className='mx-auto mt-8 max-w-5xl px-6 sm:mt-40 lg:px-16 bg-[#27946B] rounded-xl py-10'>
+        <div className='mx-auto mt-8 max-w-5xl px-6 sm:mt-28 lg:px-16 bg-[#27946B] rounded-xl py-10'>
           <div className='mx-auto max-w-2xl lg:text-center'>
             <p className='mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl'>
               Our Mission{' '}
@@ -211,10 +209,10 @@ export default async function Home() {
         <div className="relative isolate pt-14 bg-[url('/assets/Bg.svg')] bg-no-repeat bg-cover">
           <div className='mx-auto max-w-7xl px-6 py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8'>
             <div className='mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow'>
-              <div className='mt-16 sm:mt-24 lg:mt-0'>
+              <div className="bg-[url('/assets/ellipse.png')] bg-no-repeat bg-cover">
                 <Image
                   className=''
-                  src='/assets/news.png'
+                  src='/assets/news-image.png'
                   alt='Hero Image'
                   width={500}
                   height={2000}
