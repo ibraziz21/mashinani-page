@@ -28,20 +28,12 @@ export default async function Home() {
                     <label htmlFor='email-address' className='sr-only'>
                       Email address
                     </label>
-                    <input
-                      id='email-address'
-                      name='email'
-                      type='email'
-                      autoComplete='email'
-                      required
-                      className='min-w-0 flex-auto rounded-full border-2 bg-white/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6'
-                      placeholder='Enter your email'
-                    />
+                  
                     <button
                       type='submit'
                       className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                     >
-                      Get started
+                      Join the community
                     </button>
                   </form>
                 </div>

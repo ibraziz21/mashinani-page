@@ -63,7 +63,7 @@ const Header = () => {
             type='submit'
             className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
           >
-            Join Community
+            Join the community
           </button>
         </div>
       </nav>
@@ -109,12 +109,12 @@ const Header = () => {
                 ))}
               </div>
               <div className='py-6'>
-                <a
-                  href='#'
-                  className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50'
+                <button
+                  type='submit'
+                  className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                 >
-                  Log in
-                </a>
+                  Join the community
+                </button>
               </div>
             </div>
           </div>

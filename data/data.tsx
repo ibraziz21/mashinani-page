@@ -81,8 +81,8 @@ export const footerNavigation = {
     { name: 'Subscriber', href: '#' },
   ],
   contacts: [
-    { name: 'info@crptokoala.com', href: '#' },
-    { name: '+61 7 7010 6803', href: '#' },
+    { name: 'info@crpto-koala.xyz', href: '#' },
+    { name: '+254 775 504 194', href: '#' },
   ],
   social: [
     {
@@ -165,7 +165,7 @@ export const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Kamae',
+    name: 'Mwangi Kamea',
     role: 'COO',
     imageUrl:Kamae,
     twitterUrl: '#',
@@ -193,7 +193,7 @@ export const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Faizah',
+    name: 'Faizah Naserian',
     role: 'Communication Head',
     imageUrl:Faizah,
     twitterUrl: '#',
