@@ -81,7 +81,7 @@ export const footerNavigation = {
     { name: 'Subscriber', href: '#' },
   ],
   contacts: [
-    { name: 'info@crpto-koala.xyz', href: '#' },
+    { name: 'info@crypto-koala.xyz', href: '#' },
     { name: '+254 775 504 194', href: '#' },
   ],
   social: [
