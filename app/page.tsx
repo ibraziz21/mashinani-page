@@ -28,17 +28,19 @@ export default async function Home() {
                     <label htmlFor='email-address' className='sr-only'>
                       Email address
                     </label>
-                  
+
                     <button
-                      type='submit'
-                      className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                      type='button'
+                      className='flex-none rounded-full bg-[#CAEC51] hover:bg-[#27946B] hover:text-white  px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                     >
-                      Join the community
+                      <a href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
+                        Join the community
+                      </a>
                     </button>
                   </form>
                 </div>
               </div>
-              <div className="">
+              <div className=''>
                 <Image
                   className='w-full h-full'
                   src='/assets/hero-image.png'
@@ -201,7 +203,7 @@ export default async function Home() {
         <div className="relative isolate pt-14 bg-[url('/assets/Bg.svg')] bg-no-repeat bg-cover">
           <div className='mx-auto max-w-7xl px-6 py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8'>
             <div className='mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow'>
-              <div className="bg-[url('/assets/ellipse.png')] bg-no-repeat bg-cover">
+              <div className="">
                 <Image
                   className=''
                   src='/assets/news-image.png'
@@ -266,6 +268,7 @@ export default async function Home() {
                           <a
                             href={person.twitterUrl}
                             className='text-gray-400 hover:text-gray-500'
+                            target='_blank'
                           >
                             <span className='sr-only'>Twitter</span>
                             <svg
@@ -282,6 +285,7 @@ export default async function Home() {
                           <a
                             href={person.linkedinUrl}
                             className='text-gray-400 hover:text-gray-500'
+                            target='_blank'
                           >
                             <span className='sr-only'>LinkedIn</span>
                             <svg
@@ -316,26 +320,16 @@ export default async function Home() {
               We recommended you to subscribe to our newsletter, drop your email
               below to get regular updates.
             </p>
-            <form className='mx-auto mt-10 flex max-w-md gap-x-4'>
-              <label htmlFor='email-address' className='sr-only'>
-                Email address
-              </label>
-              <input
-                id='email-address'
-                name='email'
-                type='email'
-                autoComplete='email'
-                required
-                className='min-w-0 flex-auto rounded-full border-0 bg-white px-6 py-2 text-gray-500 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6'
-                placeholder='Enter your email'
-              />
+            <div className='mt-10 flex item-center justify-center'>
               <button
-                type='submit'
-                className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                type='button'
+                className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#27946B] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
               >
-                Notify me
+                <a href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
+                  Join the community
+                </a>
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </main>

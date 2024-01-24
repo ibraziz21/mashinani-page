@@ -60,10 +60,12 @@ const Header = () => {
         </div>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <button
-            type='submit'
+            type='button'
             className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
           >
-            Join the community
+            <a href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
+              Join the community
+            </a>
           </button>
         </div>
       </nav>
