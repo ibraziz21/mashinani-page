@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Header from './header';
 import { footerNavigation, people, secondaryFeatures } from '@/data/data';
+import Link from 'next/link';
 
 export default async function Home() {
   return (
@@ -29,14 +30,13 @@ export default async function Home() {
                       Email address
                     </label>
 
-                    <button
-                      type='button'
+                    <Link
+                      href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                      target='_blank'
                       className='flex-none rounded-full bg-[#CAEC51] hover:bg-[#27946B] hover:text-white  px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                     >
-                      <a href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
-                        Join the community
-                      </a>
-                    </button>
+                      Join the community
+                    </Link>
                   </form>
                 </div>
               </div>
@@ -203,7 +203,7 @@ export default async function Home() {
         <div className="relative isolate pt-14 bg-[url('/assets/Bg.svg')] bg-no-repeat bg-cover">
           <div className='mx-auto max-w-7xl px-6 py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8'>
             <div className='mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow'>
-              <div className="">
+              <div className=''>
                 <Image
                   className=''
                   src='/assets/news-image.png'
@@ -265,7 +265,7 @@ export default async function Home() {
                         className='mt-6 flex justify-center gap-x-6'
                       >
                         <li>
-                          <a
+                          <Link
                             href={person.twitterUrl}
                             className='text-gray-400 hover:text-gray-500'
                             target='_blank'
@@ -279,10 +279,10 @@ export default async function Home() {
                             >
                               <path d='M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84' />
                             </svg>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href={person.linkedinUrl}
                             className='text-gray-400 hover:text-gray-500'
                             target='_blank'
@@ -300,7 +300,7 @@ export default async function Home() {
                                 clipRule='evenodd'
                               />
                             </svg>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -321,14 +321,13 @@ export default async function Home() {
               below to get regular updates.
             </p>
             <div className='mt-10 flex item-center justify-center'>
-              <button
-                type='button'
-                className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#27946B] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
-              >
-                <a href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
+                <Link
+                  href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                  target='_blank'
+                  className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#27946B] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                >
                   Join the community
-                </a>
-              </button>
+                </Link>
             </div>
           </div>
         </div>
@@ -355,9 +354,9 @@ export default async function Home() {
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.navigate.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className='text-sm leading-6 '>
+                        <Link href={item.href} className='text-sm leading-6 '>
                           {item.name}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -383,9 +382,9 @@ export default async function Home() {
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.partner.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className='text-sm leading-6 '>
+                        <Link href={item.href} className='text-sm leading-6 '>
                           {item.name}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -397,9 +396,9 @@ export default async function Home() {
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.contacts.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className='text-sm leading-6 '>
+                        <Link href={item.href} className='text-sm leading-6 '>
                           {item.name}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -444,14 +443,14 @@ export default async function Home() {
           <div className='mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between'>
             <div className='flex space-x-6 md:order-2'>
               {footerNavigation.social.map((item) => (
-                <a
+                <Link
                   key={item.name}
                   href={item.href}
                   className='text-gray-500 hover:text-gray-400'
                 >
                   <span className='sr-only'>{item.name}</span>
                   <item.icon className='h-6 w-6' aria-hidden='true' />
-                </a>
+                </Link>
               ))}
             </div>
             <p className='mt-8 text-xs leading-5 md:order-1 md:mt-0'>

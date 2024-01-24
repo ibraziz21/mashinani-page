@@ -1,11 +1,10 @@
-"use client"
+'use client';
 
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-
+import { Dialog } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 const navigation = [
   { name: 'Home', href: '#' },
@@ -16,8 +15,7 @@ const navigation = [
 ];
 
 const Header = () => {
-
-	  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className='absolute inset-x-0 top-0 z-50'>
@@ -49,13 +47,13 @@ const Header = () => {
         </div>
         <div className='hidden lg:flex lg:gap-x-12'>
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className='text-sm font-semibold leading-6 text-white'
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
@@ -63,9 +61,9 @@ const Header = () => {
             type='button'
             className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
           >
-            <a href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
+            <Link href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
               Join the community
-            </a>
+            </Link>
           </button>
         </div>
       </nav>
@@ -101,22 +99,24 @@ const Header = () => {
             <div className='-my-6 divide-y divide-white/10'>
               <div className='space-y-2 py-6'>
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
                     className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50'
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
               <div className='py-6'>
-                <button
-                  type='submit'
+                <Link
+                  href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                  target='_blank'
                   className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                 >
+                  {' '}
                   Join the community
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -124,6 +124,6 @@ const Header = () => {
       </Dialog>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;
