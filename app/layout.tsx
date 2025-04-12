@@ -5,8 +5,8 @@ import "./globals.css";
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Crypto Koala",
-  description: "A space where African creativity meets global innovation. Explore, engage, and empower with Crypto Koala.",
+  title: "Web3 Mashinani",
+  description: "Empowering youth with accessible Web3 education and tools",
 };
 
 export default function RootLayout({

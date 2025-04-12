@@ -15,14 +15,14 @@ export default async function Home() {
             <div className='mx-auto max-w-7xl px-6 py-12 sm:py-20 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-28'>
               <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto text-white'>
                 <h1 className='max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-6xl'>
-                  Welcome to Crypto Koala Web3 Studios
+                  Welcome to The Web3 Mashinani
                 </h1>
                 <p className='mt-6 text-lg leading-8 text-[#BFBEC2]'>
-                  More Than Streaming, Its a Revolution. Our mission extends
-                  beyond screens, beyond borders. As a hub for Web3, blockchain,
-                  and AI, we invite you to join us in creating a space where
-                  African creativity meets global innovation. Explore, engage,
-                  and empower with Crypto Koala.
+                  Empowering grassroots youth with the transformative power of blockchain and
+                  decentralized technology. Our mission goes beyond mere adoption—it's about
+                  igniting a new wave of innovation at the local level. Join us in bridging the
+                  digital divide, amplifying young voices, and reshaping the future—one
+                  block at a time.
                 </p>
                 <div className='mt-4 flex items-center gap-x-6'>
                   <form className='mt-2 flex  gap-x-4'>
@@ -162,12 +162,13 @@ export default async function Home() {
             </div>
             <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto'>
               <h2 className='max-w-xl text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                Innovation Beyond Streaming
+                Building Grassroots Web3 Communities
               </h2>
               <p className='mt-6 text-md leading-8 text-gray-600'>
-                We are not confined to conventional storytelling. Instead, we
-                embrace a mix of innovative storytelling, user-generated content
-                (UGC), and experiential events.
+                At Web3 Mashinani, we focus on bridging the digital divide by bringing
+                accessible blockchain and decentralized technology training directly
+                to grassroots youth. Our goal is simple: equip the next generation
+                with the skills and confidence to thrive in a decentralized future.
               </p>
             </div>
           </div>
@@ -177,13 +178,14 @@ export default async function Home() {
           <div className='mx-auto max-w-7xl px-6 py-8 lg:flex lg:items-center lg:gap-x-10 lg:px-8'>
             <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto'>
               <h2 className='max-w-xl text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                Supporting African Creatives
+                Empowering Youth Through Real-World Applications
               </h2>
               <p className='mt-6 text-md leading-8 text-gray-600'>
-                Central to our ethos is the development and promotion of
-                Non-Fungible Tokens (NFTs). We provide a launchpad for African
-                creatives to showcase their artistic visions, not only ensuring
-                visibility but also providing vital financial support.
+                From digital identity solutions to financial inclusion and beyond,
+                our programs connect young innovators with the tools they need to
+                address community challenges. Through hands-on workshops and
+                ongoing mentorship, we nurture a culture of exploration,
+                collaboration, and long-term success.
               </p>
             </div>
             <div className='mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow'>
@@ -215,13 +217,14 @@ export default async function Home() {
             </div>
             <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto'>
               <h2 className='max-w-xl text-2xl font-bold tracking-tight text-white sm:text-4xl'>
-                A Leading Voice in Web3 News
+                A Community-Driven Ecosystem
               </h2>
               <p className='mt-6 text-md leading-8 text-white'>
-                Crypto Koala is committed to being a leading voice in the news
-                sector, reporting on relevant global issues with a focus on
-                their impact and interaction with the Web3 and blockchain
-                spaces.
+                Web3 Mashinani is more than an educational program—it's a growing
+                network of changemakers. We collaborate with local organizations
+                and tech partners to amplify our impact, ensuring our youth
+                communities stay informed, inspired, and equipped to lead
+                Africa's next wave of decentralized innovation.
               </p>
             </div>
           </div>
@@ -321,13 +324,13 @@ export default async function Home() {
               below to get regular updates.
             </p>
             <div className='mt-10 flex item-center justify-center'>
-                <Link
-                  href='https://t.me/+w2aY7_Hvy7M2ZjM0'
-                  target='_blank'
-                  className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#27946B] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
-                >
-                  Join the community
-                </Link>
+              <Link
+                href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                target='_blank'
+                className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#27946B] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+              >
+                Join the community
+              </Link>
             </div>
           </div>
         </div>
