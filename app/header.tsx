@@ -74,7 +74,7 @@ const Header = () => {
         onClose={setMobileMenuOpen}
       >
         <div className='fixed inset-0 z-50' />
-        <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#22252E] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+        <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
             <Link href='/' className='-m-1.5 p-1.5'>
               <span className='sr-only'>Web3 Mashinani</span>
@@ -110,9 +110,9 @@ const Header = () => {
               </div>
               <div className='py-6'>
                 <Link
-                  href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                  href='https://chat.whatsapp.com/Jlgj3rWVsQfKQfE0bqfEY9'
                   target='_blank'
-                  className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                  className='flex-none rounded-full bg-[#b36e5c] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0a3224] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                 >
                   {' '}
                   Join the community
