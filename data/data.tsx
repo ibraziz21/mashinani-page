@@ -1,9 +1,7 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
 import Aziz from '@/public/assets/Aziz.png'
 import Omar from '@/public/assets/omar.png'
-import Alex from '@/public/assets/alex.png'
 import Kamae from '@/public/assets/kamae.png'
-import Mark from '@/public/assets/Mark-Moss.png'
 import Victoria from '@/public/assets/Victoria-Mukami.png'
 import Cyndie from '@/public/assets/cyndie.png'
 import Faizah from '@/public/assets/faizah.png'
@@ -82,7 +80,7 @@ export const footerNavigation = {
   ],
   contacts: [
     { name: 'info@web3-mashinani.xyz', href: '#' },
-
+  
   ],
   social: [
     {
@@ -157,7 +155,7 @@ export const people = [
   {
     name: 'Lujan Odera',
     role: 'Content Director',
-    imageUrl: Mark,
+    imageUrl: Omar,
     twitterUrl: '#',
     linkedinUrl:
       'https://www.linkedin.com/in/',
@@ -173,7 +171,7 @@ export const people = [
   {
     name: 'Daniel Gitau',
     role: 'Creative Director',
-    imageUrl: Alex,
+    imageUrl: Omar,
     twitterUrl: '#',
     linkedinUrl: '#',
   },

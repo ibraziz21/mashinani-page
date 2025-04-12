@@ -7,18 +7,18 @@ export default async function Home() {
   return (
     <div className='bg-white'>
       <main>
-        <div className='bg-[#22252E]'>
+        <div className='bg-white'>
           {/* Header */}
           <Header />
 
           {/* Hero section */}
           <div className='relative isolate pt-14'>
             <div className='mx-auto max-w-7xl px-6 py-12 sm:py-20 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-28'>
-              <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto text-white'>
-                <h1 className='max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-6xl'>
+              <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto text-black'>
+                <h1 className='max-w-2xl text-4xl font-bold tracking-tight text-black sm:text-6xl'>
                   Welcome to The Web3 Mashinani
                 </h1>
-                <p className='mt-6 text-lg leading-8 text-[#BFBEC2]'>
+                <p className='mt-6 text-lg leading-8 text-black]'>
                   Empowering grassroots youth with the transformative power of blockchain and
                   decentralized technology. Our mission goes beyond mere adoption&mdash;it&apos;s about
                   igniting a new wave of innovation at the local level. Join us in bridging the
@@ -34,7 +34,7 @@ export default async function Home() {
                     <Link
                       href='https://t.me/+w2aY7_Hvy7M2ZjM0'
                       target='_blank'
-                      className='flex-none rounded-full bg-[#CAEC51] hover:bg-[#27946B] hover:text-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                      className='flex-none rounded-full bg-[#b36e5c] hover:bg-[#0a3224] hover:text-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                     >
                       Join the community
                     </Link>
@@ -121,7 +121,7 @@ export default async function Home() {
         </div>
 
         {/* Feature section */}
-        <div className='mx-auto mt-8 max-w-5xl px-6 sm:mt-28 lg:px-16 bg-[#27946B] rounded-xl py-10'>
+        <div className='mx-auto mt-8 max-w-5xl px-6 sm:mt-28 lg:px-16 bg-[#0a3224] rounded-xl py-10'>
           <div className='mx-auto max-w-2xl lg:text-center'>
             <p className='mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl'>
               Our Mission
@@ -131,7 +131,7 @@ export default async function Home() {
             <dl className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3'>
               {secondaryFeatures.map((feature) => (
                 <div key={feature.name} className='flex flex-col'>
-                  <div className='w-12 h-12 bg-[#CAEC51] rounded-full flex items-center justify-center font-bold text-lg mb-4'>
+                  <div className='w-12 h-12 bg-white rounded-full flex items-center justify-center font-bold text-lg mb-4'>
                     {feature.featureNumber}
                   </div>
                   <dt className='flex gap-x-3 text-xl font-bold leading-7 text-white'>
@@ -327,7 +327,7 @@ export default async function Home() {
               <Link
                 href='https://t.me/+w2aY7_Hvy7M2ZjM0'
                 target='_blank'
-                className='flex-none rounded-full bg-[#CAEC51] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#27946B] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                className='flex-none rounded-full bg-[#b36e5c] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#0a3224] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
               >
                 Join the community
               </Link>
@@ -345,8 +345,8 @@ export default async function Home() {
           <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
             <Image
               className='h-16 w-auto'
-              src='/assets/logo-dark.png'
-              alt='Crypto Koala'
+              src='/assets/WMLogo.svg'
+              alt='Web3 Mashinani'
               width={100}
               height={100}
             />
@@ -440,7 +440,7 @@ export default async function Home() {
               <div className='mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0'>
                 <button
                   type='submit'
-                  className='flex w-full items-center justify-center rounded-full bg-[#27946B] text-white px-6 py-2 text-sm font-semibold shadow-sm hover:bg-[#44bf90] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#27946B]'
+                  className='flex w-full items-center justify-center rounded-full bg-[#b36e5c] text-white px-6 py-2 text-sm font-semibold shadow-sm hover:bg-[#0a3224] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#27946B]'
                 >
                   Subscribe
                 </button>

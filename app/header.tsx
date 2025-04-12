@@ -25,10 +25,10 @@ const Header = () => {
       >
         <div className='flex lg:flex-1'>
           <Link href='/' className='-m-1.5 p-1.5'>
-            <span className='sr-only'>Crypto Koala</span>
+            <span className='sr-only'>Web3 Mashinani</span>
             <Image
               className='h-16 w-auto'
-              src='/assets/logo.png'
+              src='/assets/WMLogo.svg'
               alt='Logo'
               width={100}
               height={100}
@@ -38,7 +38,7 @@ const Header = () => {
         <div className='flex lg:hidden'>
           <button
             type='button'
-            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white'
+            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black'
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className='sr-only'>Open main menu</span>
@@ -50,7 +50,7 @@ const Header = () => {
             <Link
               key={item.name}
               href={item.href}
-              className='text-sm font-semibold leading-6 text-white'
+              className='text-sm font-semibold leading-6 text-black'
             >
               {item.name}
             </Link>
@@ -59,7 +59,7 @@ const Header = () => {
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <button
             type='button'
-            className='flex-none rounded-full bg-[#27946B] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+            className='flex-none rounded-full bg-[#b36e5c] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
           >
             <Link href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
               Join the community
@@ -77,10 +77,10 @@ const Header = () => {
         <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#22252E] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
             <Link href='/' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Crypto Koala</span>
+              <span className='sr-only'>Web3 Mashinani</span>
               <Image
                 className='h-16 w-auto'
-                src='/assets/logo.png'
+                src='/assets/WMLogo.svg'
                 alt='Logo'
                 width={100}
                 height={100}
@@ -88,7 +88,7 @@ const Header = () => {
             </Link>
             <button
               type='button'
-              className='-m-2.5 rounded-md p-2.5 text-white'
+              className='-m-2.5 rounded-md p-2.5 text-black'
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className='sr-only'>Close menu</span>
@@ -102,7 +102,7 @@ const Header = () => {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50'
+                    className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50'
                   >
                     {item.name}
                   </Link>
