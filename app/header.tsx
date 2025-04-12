@@ -59,9 +59,9 @@ const Header = () => {
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
           <button
             type='button'
-            className='flex-none rounded-full bg-[#b36e5c] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+            className='flex-none rounded-full bg-[#b36e5c] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-0a3224 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
           >
-            <Link href='https://t.me/+w2aY7_Hvy7M2ZjM0' target='_blank'>
+            <Link href='https://chat.whatsapp.com/Jlgj3rWVsQfKQfE0bqfEY9' target='_blank'>
               Join the community
             </Link>
           </button>

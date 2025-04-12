@@ -32,7 +32,7 @@ export default async function Home() {
                     </label>
 
                     <Link
-                      href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                      href='https://chat.whatsapp.com/Jlgj3rWVsQfKQfE0bqfEY9'
                       target='_blank'
                       className='flex-none rounded-full bg-[#b36e5c] hover:bg-[#0a3224] hover:text-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                     >
@@ -325,7 +325,7 @@ export default async function Home() {
             </p>
             <div className='mt-10 flex item-center justify-center'>
               <Link
-                href='https://t.me/+w2aY7_Hvy7M2ZjM0'
+                href='https://chat.whatsapp.com/Jlgj3rWVsQfKQfE0bqfEY9'
                 target='_blank'
                 className='flex-none rounded-full bg-[#b36e5c] px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#0a3224] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
               >
