@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Header from './header';
-import { footerNavigation, people, secondaryFeatures } from '@/data/data';
-import Link from 'next/link';
+import Image from 'next/image'
+import Header from './header'
+import { footerNavigation, people, secondaryFeatures } from '@/data/data'
+import Link from 'next/link'
 
 export default async function Home() {
   return (
@@ -10,6 +10,7 @@ export default async function Home() {
         <div className='bg-[#22252E]'>
           {/* Header */}
           <Header />
+
           {/* Hero section */}
           <div className='relative isolate pt-14'>
             <div className='mx-auto max-w-7xl px-6 py-12 sm:py-20 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-28'>
@@ -19,9 +20,9 @@ export default async function Home() {
                 </h1>
                 <p className='mt-6 text-lg leading-8 text-[#BFBEC2]'>
                   Empowering grassroots youth with the transformative power of blockchain and
-                  decentralized technology. Our mission goes beyond mere adoption—it's about
+                  decentralized technology. Our mission goes beyond mere adoption&mdash;it&apos;s about
                   igniting a new wave of innovation at the local level. Join us in bridging the
-                  digital divide, amplifying young voices, and reshaping the future—one
+                  digital divide, amplifying young voices, and reshaping the future&mdash;one
                   block at a time.
                 </p>
                 <div className='mt-4 flex items-center gap-x-6'>
@@ -33,7 +34,7 @@ export default async function Home() {
                     <Link
                       href='https://t.me/+w2aY7_Hvy7M2ZjM0'
                       target='_blank'
-                      className='flex-none rounded-full bg-[#CAEC51] hover:bg-[#27946B] hover:text-white  px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+                      className='flex-none rounded-full bg-[#CAEC51] hover:bg-[#27946B] hover:text-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
                     >
                       Join the community
                     </Link>
@@ -123,7 +124,7 @@ export default async function Home() {
         <div className='mx-auto mt-8 max-w-5xl px-6 sm:mt-28 lg:px-16 bg-[#27946B] rounded-xl py-10'>
           <div className='mx-auto max-w-2xl lg:text-center'>
             <p className='mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl'>
-              Our Mission{' '}
+              Our Mission
             </p>
           </div>
           <div className='mx-auto mt-6 max-w-2xl sm:mt-8 lg:mt-10 lg:max-w-none'>
@@ -133,11 +134,9 @@ export default async function Home() {
                   <div className='w-12 h-12 bg-[#CAEC51] rounded-full flex items-center justify-center font-bold text-lg mb-4'>
                     {feature.featureNumber}
                   </div>
-
                   <dt className='flex gap-x-3 text-xl font-bold leading-7 text-white'>
                     {feature.name}
                   </dt>
-
                   <dd className='mt-4 flex flex-auto flex-col text-base leading-7 text-white'>
                     <p className='flex-auto '>{feature.description}</p>
                   </dd>
@@ -205,7 +204,7 @@ export default async function Home() {
         <div className="relative isolate pt-14 bg-[url('/assets/Bg.svg')] bg-no-repeat bg-cover">
           <div className='mx-auto max-w-7xl px-6 py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8'>
             <div className='mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow'>
-              <div className=''>
+              <div>
                 <Image
                   className=''
                   src='/assets/news-image.png'
@@ -220,11 +219,11 @@ export default async function Home() {
                 A Community-Driven Ecosystem
               </h2>
               <p className='mt-6 text-md leading-8 text-white'>
-                Web3 Mashinani is more than an educational program—it's a growing
+                Web3 Mashinani is more than an educational program&mdash;it&apos;s a growing
                 network of changemakers. We collaborate with local organizations
                 and tech partners to amplify our impact, ensuring our youth
                 communities stay informed, inspired, and equipped to lead
-                Africa's next wave of decentralized innovation.
+                Africa&apos;s next wave of decentralized innovation.
               </p>
             </div>
           </div>
@@ -240,7 +239,7 @@ export default async function Home() {
                     Meet our team
                   </h2>
                   <p className='mt-4 text-lg leading-8 text-gray-600'>
-                    We’re a dynamic group of individuals who are passionate
+                    We&apos;re a dynamic group of individuals who are passionate
                     about what we do.
                   </p>
                 </div>
@@ -313,11 +312,12 @@ export default async function Home() {
             </div>
           </div>
         </div>
+
         {/* Newsletter section */}
         <div className='mx-auto pt-10 sm:pt-32'>
-          <div className='relative isolate overflow-hidden bg-[#22252E]  py-24 sm:px-24 '>
+          <div className='relative isolate overflow-hidden bg-[#22252E] py-24 sm:px-24'>
             <h2 className='mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl'>
-              Get our latest news & update regularly
+              Get our latest news &amp; update regularly
             </h2>
             <p className='mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300'>
               We recommended you to subscribe to our newsletter, drop your email
@@ -353,11 +353,13 @@ export default async function Home() {
             <div className='mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0'>
               <div className='md:grid md:grid-cols-2 md:gap-8'>
                 <div>
-                  <h3 className='text-sm font-semibold leading-6 '>Navigate</h3>
+                  <h3 className='text-sm font-semibold leading-6'>
+                    Navigate
+                  </h3>
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.navigate.map((item) => (
                       <li key={item.name}>
-                        <Link href={item.href} className='text-sm leading-6 '>
+                        <Link href={item.href} className='text-sm leading-6'>
                           {item.name}
                         </Link>
                       </li>
@@ -365,13 +367,13 @@ export default async function Home() {
                   </ul>
                 </div>
                 <div className='mt-10 md:mt-0'>
-                  <h3 className='text-sm font-semibold leading-6 '>
+                  <h3 className='text-sm font-semibold leading-6'>
                     Support us
                   </h3>
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.support.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className='text-sm leading-6 '>
+                        <a href={item.href} className='text-sm leading-6'>
                           {item.name}
                         </a>
                       </li>
@@ -381,11 +383,13 @@ export default async function Home() {
               </div>
               <div className='md:grid md:grid-cols-2 md:gap-8'>
                 <div>
-                  <h3 className='text-sm font-semibold leading-6 '>Partner</h3>
+                  <h3 className='text-sm font-semibold leading-6'>
+                    Partner
+                  </h3>
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.partner.map((item) => (
                       <li key={item.name}>
-                        <Link href={item.href} className='text-sm leading-6 '>
+                        <Link href={item.href} className='text-sm leading-6'>
                           {item.name}
                         </Link>
                       </li>
@@ -399,7 +403,7 @@ export default async function Home() {
                   <ul role='list' className='mt-6 space-y-4'>
                     {footerNavigation.contacts.map((item) => (
                       <li key={item.name}>
-                        <Link href={item.href} className='text-sm leading-6 '>
+                        <Link href={item.href} className='text-sm leading-6'>
                           {item.name}
                         </Link>
                       </li>
@@ -412,10 +416,10 @@ export default async function Home() {
 
           <div className='mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between'>
             <div>
-              <h3 className='text-sm font-semibold leading-6 '>
+              <h3 className='text-sm font-semibold leading-6'>
                 Subscribe to our newsletter
               </h3>
-              <p className='mt-2 text-sm leading-6 '>
+              <p className='mt-2 text-sm leading-6'>
                 The latest news, articles, and resources, sent to your inbox
                 weekly.
               </p>
@@ -430,13 +434,13 @@ export default async function Home() {
                 id='email-address'
                 autoComplete='email'
                 required
-                className='w-full min-w-0 appearance-none rounded-full border-2 border-gray-500 bg-white/5 px-3 py-1.5 text-base  shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#27946B] sm:w-56 sm:text-sm sm:leading-6'
+                className='w-full min-w-0 appearance-none rounded-full border-2 border-gray-500 bg-white/5 px-3 py-1.5 text-base shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#27946B] sm:w-56 sm:text-sm sm:leading-6'
                 placeholder='Enter your email'
               />
               <div className='mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0'>
                 <button
                   type='submit'
-                  className='flex w-full items-center justify-center rounded-full bg-[#27946B] text-white px-6 py-2 text-sm font-semibold  shadow-sm hover:bg-[#44bf90] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#27946B]'
+                  className='flex w-full items-center justify-center rounded-full bg-[#27946B] text-white px-6 py-2 text-sm font-semibold shadow-sm hover:bg-[#44bf90] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#27946B]'
                 >
                   Subscribe
                 </button>
@@ -457,11 +461,11 @@ export default async function Home() {
               ))}
             </div>
             <p className='mt-8 text-xs leading-5 md:order-1 md:mt-0'>
-              &copy; Crypto Koala. 2024. All rights reserved.
+              &copy; Web3 Mashinani. 2025. All rights reserved.
             </p>
           </div>
         </div>
       </footer>
     </div>
-  );
+  )
 }
