@@ -16,7 +16,7 @@ export default async function Home() {
             <div className='mx-auto max-w-7xl px-6 py-12 sm:py-20 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-28'>
               <div className='mx-auto max-w-2xl lg:mx-0 lg:flex-auto text-black'>
                 <h1 className='max-w-2xl text-4xl font-bold tracking-tight text-black sm:text-6xl'>
-                  Welcome to The Web3 Mashinani
+                  Welcome to The Web3 Mashinani Initiative
                 </h1>
                 <p className='mt-6 text-lg leading-8 text-black]'>
                   Empowering grassroots youth with the transformative power of blockchain and
@@ -44,7 +44,7 @@ export default async function Home() {
               <div className=''>
                 <Image
                   className='w-full h-full'
-                  src='/assets/hero-image.png'
+                  src='/assets/heroIcon.png'
                   alt='Hero Image'
                   width={2432}
                   height={1442}
@@ -70,8 +70,8 @@ export default async function Home() {
             />
             <Image
               className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/Hustle-Yangu.png'
-              alt='Hustle Yangu'
+              src='/assets/nslogo.png'
+              alt='Nurturing Stars Organization'
               width={158}
               height={48}
             />
@@ -152,7 +152,7 @@ export default async function Home() {
               <div className='mt-16 sm:mt-24 lg:mt-0'>
                 <Image
                   className=''
-                  src='/assets/streaming.png'
+                  src='/assets/grassroots1.png'
                   alt='Hero Image'
                   width={500}
                   height={2000}
@@ -191,7 +191,7 @@ export default async function Home() {
               <div className='mt-16 sm:mt-24 lg:mt-0'>
                 <Image
                   className=''
-                  src='/assets/nft.png'
+                  src='/assets/empowerment.png'
                   alt='Hero Image'
                   width={500}
                   height={2000}
@@ -207,7 +207,7 @@ export default async function Home() {
               <div>
                 <Image
                   className=''
-                  src='/assets/news-image.png'
+                  src='/assets/eco.png'
                   alt='Hero Image'
                   width={500}
                   height={2000}
@@ -250,11 +250,11 @@ export default async function Home() {
                   {people.map((person) => (
                     <li key={person.name}>
                       <Image
-                        className='mx-auto h-56 w-56 rounded-full'
+                        className='mx-auto h-56 w-56 rounded-lg'
                         src={person.imageUrl}
                         alt={person.name}
                         width={200}
-                        height={200}
+                        height={250}
                       />
                       <h3 className='mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900'>
                         {person.name}

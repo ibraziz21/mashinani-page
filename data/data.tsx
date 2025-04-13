@@ -1,6 +1,6 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
 import Aziz from '@/public/assets/Aziz.png'
-import Omar from '@/public/assets/omar.png'
+import Omar from '@/public/assets/omarB.png'
 import Kamae from '@/public/assets/kamae.png'
 import Victoria from '@/public/assets/Victoria-Mukami.png'
 import Cyndie from '@/public/assets/cyndie.png'
@@ -146,7 +146,7 @@ export const people = [
   },
   {
     name: 'Edwin Munyui',
-    role: 'COO',
+    role: 'Research Lead',
     imageUrl: Kamae,
     twitterUrl: 'https://twitter.com/',
     linkedinUrl:
@@ -154,16 +154,16 @@ export const people = [
   },
   {
     name: 'Lujan Odera',
-    role: 'Content Director',
-    imageUrl: Omar,
+    role: 'Program Lead',
+    imageUrl: Kamae,
     twitterUrl: '#',
     linkedinUrl:
       'https://www.linkedin.com/in/',
   },
   {
     name: 'Levis Miriti',
-    role: 'Marketing Head',
-    imageUrl: Victoria,
+    role: 'Data Analytics Lead',
+    imageUrl: Kamae,
     twitterUrl: '#',
     linkedinUrl:
       'https://www.linkedin.com/in/',
@@ -171,7 +171,7 @@ export const people = [
   {
     name: 'Daniel Gitau',
     role: 'Creative Director',
-    imageUrl: Omar,
+    imageUrl: Kamae,
     twitterUrl: '#',
     linkedinUrl: '#',
   },
