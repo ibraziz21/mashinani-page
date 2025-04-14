@@ -1,5 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
-import Aziz from '@/public/assets/Aziz.png'
+import Munyui from '@/public/assets/munyui.jpg'
 import Omar from '@/public/assets/omarB.png'
 import Kamae from '@/public/assets/kamae.png'
 import Victoria from '@/public/assets/Victoria-Mukami.png'
@@ -147,10 +147,10 @@ export const people = [
   {
     name: 'Edwin Munyui',
     role: 'Research Lead',
-    imageUrl: Kamae,
-    twitterUrl: 'https://twitter.com/',
+    imageUrl: Munyui,
+    twitterUrl: 'https://twitter.com/gachaja',
     linkedinUrl:
-      'https://www.linkedin.com/in/',
+      'https://www.linkedin.com/in/edwin-munyui-bbb964a'
   },
   {
     name: 'Lujan Odera',

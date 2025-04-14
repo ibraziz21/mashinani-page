@@ -207,7 +207,7 @@ export default async function Home() {
               <div>
                 <Image
                   className=''
-                  src='/assets/eco.png'
+                  src='/assets/community.png'
                   alt='Hero Image'
                   width={500}
                   height={2000}
