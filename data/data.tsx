@@ -1,8 +1,7 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
 import Munyui from '@/public/assets/munyui.jpg'
 import Omar from '@/public/assets/omarB.png'
-import Kamae from '@/public/assets/kamae.png'
-import Lujan from '@/public/assets/Lujan.jpg'
+import Lujan from '@/public/assets/lujan.jpg'
 import Dante from '@/public/assets/dante.jpg'
 import Scoffie from '@/public/assets/scoffie.jpg'
 
@@ -120,7 +119,7 @@ export const footerNavigation = {
     },
     {
       name: 'YouTube',
-      href: 'https://youtube.com/web3mashinani',
+      href: '',
       icon: (props: any) => (
         <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
           <path
