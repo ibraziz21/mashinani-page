@@ -1,10 +1,12 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
-import Munyui from '@/public/assets/munyui.jpg'
-import Omar from '@/public/assets/omarB.png'
+import Munyui from '@/public/assets/edu.jpg'
+import Omar from '@/public/assets/ibra.jpg'
 import Lujan from '@/public/assets/lujan.jpg'
 import Dante from '@/public/assets/dante.jpg'
-import Scoffie from '@/public/assets/scoffie.jpg'
-
+import Scoffie from '@/public/assets/levis.jpg'
+import faiza from '@/public/assets/faiza.jpg'
+import ras from '@/public/assets/ras.jpg'
+import abdi from '@/public/assets/yahya.jpg'
 
 export const primaryFeatures = [
   {
@@ -171,8 +173,32 @@ export const people = [
     name: 'Daniel Gitau',
     role: 'Creative Director',
     imageUrl: Dante,
-    twitterUrl: 'https://x.com/sph',
+    twitterUrl: 'https://x.com/sphinx_ke',
     linkedinUrl: '#',
+  },
+  {
+    name: 'Faizah Naserian',
+    role: 'Community Lead',
+    imageUrl: faiza,
+    twitterUrl: 'https://twitter.com/faizahnaserian',
+    linkedinUrl:
+      'https://www.linkedin.com/in'
+  },
+  {
+    name: 'Rashid Athman',
+    role: 'Instructor',
+    imageUrl: ras,
+    twitterUrl: 'https://twitter.com/rasmoat97',
+    linkedinUrl:
+      'https://www.linkedin.com/in/rashid-athman'
+  },
+  {
+    name: 'Ibrahim Abdi',
+    role: 'Data Analytics',
+    imageUrl: abdi,
+    twitterUrl: 'https://twitter.com/ibrahimabdi_',
+    linkedinUrl:
+      'https://www.linkedin.com/in/'
   },
 ];
 
