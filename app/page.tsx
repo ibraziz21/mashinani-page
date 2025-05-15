@@ -235,7 +235,7 @@ export default async function Home() {
                   {people.map((person) => (
                     <li key={person.name}>
                       <Image
-                        className='mx-auto h-56 w-56 rounded-lg'
+                        className='mx-auto h-56 w-56 rounded-lg object-contain'
                         src={person.imageUrl}
                         alt={person.name}
                         width={200}
