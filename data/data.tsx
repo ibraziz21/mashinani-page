@@ -1,7 +1,7 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
 import Munyui from '@/public/assets/edu.jpg'
 import Omar from '@/public/assets/ibra.jpg'
-import Lujan from '@/public/assets/lujan.jpg'
+import Lujan from '@/public/assets/odera.jpg'
 import Dante from '@/public/assets/dante.jpg'
 import Scoffie from '@/public/assets/levis.jpg'
 import faiza from '@/public/assets/faiza.jpg'
@@ -165,7 +165,7 @@ export const people = [
     name: 'Levis Miriti',
     role: 'Data Analytics Lead',
     imageUrl: Scoffie,
-    twitterUrl: '#',
+    twitterUrl: 'https://x.com/iithundio',
     linkedinUrl:
       'https://www.linkedin.com/in/',
   },
