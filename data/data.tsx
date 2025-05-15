@@ -2,9 +2,9 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from "@heroicons/react/2
 import Munyui from '@/public/assets/munyui.jpg'
 import Omar from '@/public/assets/omarB.png'
 import Kamae from '@/public/assets/kamae.png'
-import Victoria from '@/public/assets/Victoria-Mukami.png'
-import Cyndie from '@/public/assets/cyndie.png'
-import Faizah from '@/public/assets/faizah.png'
+import Lujan from '@/public/assets/Lujan.jpg'
+import Dante from '@/public/assets/dante.jpg'
+import Scoffie from '@/public/assets/scoffie.jpg'
 
 
 export const primaryFeatures = [
@@ -85,7 +85,7 @@ export const footerNavigation = {
   social: [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://facebook.com/web3mashinani',
       icon: (props: any) => (
         <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
           <path
@@ -98,7 +98,7 @@ export const footerNavigation = {
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://instagram.com/web3mashinani',
       icon: (props: any) => (
         <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
           <path
@@ -120,7 +120,7 @@ export const footerNavigation = {
     },
     {
       name: 'YouTube',
-      href: '#',
+      href: 'https://youtube.com/web3mashinani',
       icon: (props: any) => (
         <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
           <path
@@ -155,15 +155,15 @@ export const people = [
   {
     name: 'Lujan Odera',
     role: 'Program Lead',
-    imageUrl: Kamae,
-    twitterUrl: '#',
+    imageUrl: Lujan,
+    twitterUrl: 'https://x.com/lujanodera',
     linkedinUrl:
       'https://www.linkedin.com/in/',
   },
   {
     name: 'Levis Miriti',
     role: 'Data Analytics Lead',
-    imageUrl: Kamae,
+    imageUrl: Scoffie,
     twitterUrl: '#',
     linkedinUrl:
       'https://www.linkedin.com/in/',
@@ -171,8 +171,8 @@ export const people = [
   {
     name: 'Daniel Gitau',
     role: 'Creative Director',
-    imageUrl: Kamae,
-    twitterUrl: '#',
+    imageUrl: Dante,
+    twitterUrl: 'https://x.com/sph',
     linkedinUrl: '#',
   },
 ];

@@ -44,9 +44,9 @@ export default async function Home() {
               <div className=''>
                 <Image
                   className='w-full h-full'
-                  src='/assets/heroIcon.png'
+                  src='/assets/Main.png'
                   alt='Hero Image'
-                  width={2432}
+                  width={2000}
                   height={1442}
                 />
               </div>
@@ -54,66 +54,51 @@ export default async function Home() {
           </div>
         </div>
 
-        {/* Logo cloud */}
-        <div className='mx-auto sm:mt-28 max-w-7xl px-6 lg:px-8'>
-          <p className='py-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center'>
-            We featured on
-            <br /> popular partners like
+        {/*  ── Partner logo “cloud” ───────────────────────────────────────────── */}
+        <div className='mx-auto sm:mt-28 max-w-7xl px-6'>
+          {/* Heading */}
+          <p className='py-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+            Our&nbsp;Partners
           </p>
-          <div className='mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-8'>
+
+          {/* Logo grid */}
+          <div
+            className='mx-auto grid max-w-lg
+               grid-cols-2 place-items-center gap-x-8 gap-y-12
+               sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 sm:gap-y-14
+               lg:max-w-none lg:grid-cols-5'>
             <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/Aquapurge.png'
+              className='max-h-12 w-full object-contain'
+              src='/assets/LL.png'
+              alt='Lile Labs'
+              width={158}
+              height={48}
+            />
+            <Image
+              className='max-h-12 w-full object-contain'
+              src='/assets/Minipay.png'
+              alt='Minipay'
+              width={158}
+              height={48}
+            />
+            <Image
+              className='max-h-12 w-full object-contain'
+              src='/assets/web3Clubs.jpg'
               alt='Aquapurge'
               width={158}
               height={48}
             />
             <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
+              className='max-h-12 w-full object-contain'
               src='/assets/nslogo.png'
               alt='Nurturing Stars Organization'
               width={158}
               height={48}
             />
             <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/Kimani-capital.png'
-              alt='Kimani Capital'
-              width={158}
-              height={48}
-            />
-            <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/NFT-Kenya.png'
-              alt='NFT Kenya'
-              width={158}
-              height={48}
-            />
-            <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/Metametaclub_.png'
-              alt='Meta Meta Club'
-              width={158}
-              height={48}
-            />
-            <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/Kamusi-DAO-Logo.png'
-              alt='Kamusi DAO'
-              width={158}
-              height={48}
-            />
-            <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
+              className='max-h-12 w-full object-contain'
               src='/assets/Cryptohubke.png'
               alt='Crypto Hub Kenya'
-              width={158}
-              height={48}
-            />
-            <Image
-              className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-              src='/assets/Bonnkewest.png'
-              alt='Bonnke West'
               width={158}
               height={48}
             />
@@ -254,7 +239,7 @@ export default async function Home() {
                         src={person.imageUrl}
                         alt={person.name}
                         width={200}
-                        height={250}
+                        height={300}
                       />
                       <h3 className='mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900'>
                         {person.name}
