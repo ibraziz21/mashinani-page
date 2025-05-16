@@ -73,7 +73,7 @@ export const events = [
     title: 'Minipay Recap & Sweatcoin Intro',
     date: 'May 19 2025',
     location: 'Google Meet',
-    description: 'Recap on basic user training for Minipay, Q & A and Intor to Sweatcoin',
+    description: 'Recap on basic user training for Minipay, Q & A and Intro to Sweatcoin',
     done: false
   },
   // {
