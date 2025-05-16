@@ -3,21 +3,21 @@ import { useRef, useEffect, useState } from 'react'
 
 type Stat = { label: string; value: number }
 const stats: Stat[] = [
-  { label: 'Youth Trained',      value: 35 },
-  { label: 'Cohorts',   value: 12  },
+  { label: 'Youth Trained', value: 35 },
+  { label: 'Cohorts',       value: 12 },
 ]
 
-/* helper – simple easing counter */
+/* ⬇︎ custom counting hook (unchanged) */
 const useCountUp = (target: number, inView: boolean) => {
   const [count, setCount] = useState(0)
   useEffect(() => {
     if (!inView) return
-    const duration = 1200         // ms
+    const duration = 1200
     const steps    = 30
     const inc      = target / steps
     let cur = 0, step = 0
     const id = setInterval(() => {
-      cur  += inc
+      cur += inc
       step += 1
       setCount(step === steps ? target : Math.round(cur))
       if (step === steps) clearInterval(id)
@@ -25,6 +25,19 @@ const useCountUp = (target: number, inView: boolean) => {
     return () => clearInterval(id)
   }, [inView, target])
   return count
+}
+
+/* ⬇︎ small wrapper component per stat */
+function StatItem({ label, value, inView }: Stat & { inView: boolean }) {
+  const count = useCountUp(value, inView)
+  return (
+    <div className='flex flex-col items-center'>
+      <dt className='text-4xl font-extrabold tracking-tight text-[#0a3224]'>
+        {count.toLocaleString()}
+      </dt>
+      <dd className='mt-2 text-sm font-medium text-gray-600'>{label}</dd>
+    </div>
+  )
 }
 
 export default function ImpactStats() {
@@ -52,20 +65,10 @@ export default function ImpactStats() {
         Our&nbsp;Impact&nbsp;in&nbsp;Numbers
       </h2>
 
-      <dl className='mt-10 grid grid-cols-1 gap-10 sm:grid-cols-3'>
-        {stats.map((s) => {
-          const count = useCountUp(s.value, isVisible)
-          return (
-            <div key={s.label} className='flex flex-col items-center'>
-              <dt className='text-4xl font-extrabold text-[#0a3224] tracking-tight'>
-                {count.toLocaleString()}
-              </dt>
-              <dd className='mt-2 text-sm font-medium text-gray-600'>
-                {s.label}
-              </dd>
-            </div>
-          )
-        })}
+      <dl className='mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2'>
+        {stats.map((s) => (
+          <StatItem key={s.label} {...s} inView={isVisible} />
+        ))}
       </dl>
     </section>
   )
