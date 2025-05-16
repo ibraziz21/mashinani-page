@@ -7,6 +7,15 @@ import Scoffie from '@/public/assets/levis.jpg'
 import faiza from '@/public/assets/faiza.jpg'
 import ras from '@/public/assets/ras.jpg'
 import abdi from '@/public/assets/yahya.jpg'
+import mashinani1 from '@/public/assets/mashinani1.jpeg'
+import mashinani2 from '@/public/assets/mashinani2.jpeg'
+import mashinani3 from '@/public/assets/mashinani3.jpeg'
+import mashinani4 from '@/public/assets/mashinani4.jpeg'
+import mashinani5 from '@/public/assets/mashinani5.jpeg'
+import mashinani6 from '@/public/assets/mashinani6.jpeg'
+
+
+
 
 export const primaryFeatures = [
   {
@@ -49,6 +58,68 @@ export const secondaryFeatures = [
     featureNumber: '3',
   },
 ];
+
+
+// ── Temporary demo data for new sections ──────────────────────────────
+export const events = [
+  {
+    title: 'Web3 Mashinani Pilot – Mombasa',
+    date: 'May 10 2025',
+    location: 'Mvita ICT Centre',
+    description: 'Hands-on onboarding with Minipay, wallet setup, and intro to DeFi.',
+    done: true
+  },
+  {
+    title: 'Minipay Recap & Sweatcoin Intro',
+    date: 'May 19 2025',
+    location: 'Google Meet',
+    description: 'Recap on basic user training for Minipay, Q & A and Intor to Sweatcoin',
+    done: false
+  },
+  // {
+  //   title: 'Community Builders AMA',
+  //   date: 'July 2 2025',
+  //   location: 'Twitter Spaces',
+  //   description: 'Open Q&A with Lile Labs mentors on funding and growth.',
+  //   done: false
+  // }
+]
+
+export const gallery = [
+  mashinani1,
+  mashinani2,
+  mashinani3,
+  mashinani4,
+  mashinani5,
+  mashinani6
+]
+
+export const impact = [
+  {
+    title: 'Building Grassroots Web3 Communities',
+    text:
+      'At Web3 Mashinani we close the digital divide by bringing accessible blockchain education directly to grassroots youth—equipping the next generation with skills and confidence to thrive in a decentralized future.',
+    img: '/assets/grassroots1.png',
+    reverse: false,
+    dark: false
+  },
+  {
+    title: 'Empowering Youth Through Real-World Applications',
+    text:
+      'From digital-identity solutions to financial inclusion, our programmes connect young innovators with the tools they need to solve community challenges. Workshops + sustained mentorship foster exploration, collaboration and long-term success.',
+    img: '/assets/empowerment.png',
+    reverse: true,
+    dark: false
+  },
+  {
+    title: 'A Community-Driven Ecosystem',
+    text:
+      "Web3 Mashinani is more than an educational programme—it's a growing network of change-makers. Partnering with local organisations and tech allies, we keep youth communities informed, inspired and ready to lead Africa's next wave of decentralised innovation.",
+    img: '/assets/community.png',
+    reverse: false,
+    dark: true
+  }
+]
 export const featuredTestimonial = {
   body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
   author: {
