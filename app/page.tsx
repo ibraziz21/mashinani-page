@@ -58,13 +58,12 @@ export default async function Home() {
         {/* Partner logo cloud */}
         <section className='mx-auto max-w-7xl px-6 sm:mt-24'>
           <h2 className='py-10 text-center text-3xl font-bold tracking-tight sm:text-4xl'>Our Partners</h2>
-          <div className='mx-auto grid max-w-lg grid-cols-2 place-items-center gap-8 sm:max-w-xl sm:grid-cols-3 lg:max-w-none lg:grid-cols-5'>
+          <div className='mx-auto grid max-w-lg grid-cols-2 place-items-center gap-8 sm:max-w-xl sm:grid-cols-3 lg:max-w-none lg:grid-cols-4'>
             {[
               { src: '/assets/LL.png', alt: 'Lile Labs' },
               { src: '/assets/Minipay.png', alt: 'Minipay' },
-              { src: '/assets/web3Clubs.jpg', alt: 'Aquapurge' },
-              { src: '/assets/nslogo.png', alt: 'Nurturing Stars Organization' },
-              { src: '/assets/Cryptohubke.png', alt: 'Crypto Hub Kenya' }
+              { src: '/assets/WDC.svg', alt: 'Aquapurge' },
+              { src: '/assets/NSA.svg', alt: 'Nurturing Stars Organization' },
             ].map((logo) => (
               <Image
                 key={logo.alt}

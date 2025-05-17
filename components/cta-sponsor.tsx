@@ -23,14 +23,14 @@ export default function CtaSponsor() {
 
       <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Link
-          href="/sponsor"         /* update routes or mailto/WhatsApp */
+          href="https://tally.so/r/nPyObV"         /* update routes or mailto/WhatsApp */
           className="rounded-full bg-[#b36e5c] px-8 py-3 text-sm font-semibold text-black
                      shadow-md transition hover:scale-105 hover:bg-white"
         >
           Become a Sponsor
         </Link>
         <Link
-          href="/host"
+          href="https://tally.so/r/nPyObV"
           className="rounded-full border border-white/50 px-8 py-3 text-sm font-semibold
                      text-white transition hover:border-white hover:bg-white/10 hover:scale-105"
         >
