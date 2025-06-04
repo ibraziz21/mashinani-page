@@ -76,13 +76,13 @@ export const events = [
     description: 'Recap on basic user training for Minipay, Q & A and Intro to Sweatcoin',
     done: true
   },
-  // {
-  //   title: 'Community Builders AMA',
-  //   date: 'July 2 2025',
-  //   location: 'Twitter Spaces',
-  //   description: 'Open Q&A with Lile Labs mentors on funding and growth.',
-  //   done: false
-  // }
+  {
+    title: 'Intro to CEXs',
+    date: 'June 5 2025',
+    location: 'Google Meet',
+    description: 'Introducing Centralized Exchanges, P2P markets and spot trading',
+    done: false
+  }
 ]
 
 export const gallery = [
